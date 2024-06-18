@@ -118,6 +118,11 @@
                     <i class="flag-icon flag-icon-cn"></i> {{ __('levels.chinese') }}
                 </a>
             </li> 
+            <li >
+                <a class="dropdown-item" href="{{ route('setlocalization','vn') }}">
+                    <i class="flag-icon flag-icon-vn"></i> {{ __('levels.vietnamese') }}
+                </a>
+            </li> 
         </ul>
     
     </div>

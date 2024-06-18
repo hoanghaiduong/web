@@ -1,7 +1,7 @@
 <?php
 return array(
-        'AccountHeads=>=>INCOME' => 'Thu nhập',
-        'AccountHeads=>=>EXPENSE' => 'Chi phí',
+        'AccountHeads::INCOME' => 'Thu nhập',
+        'AccountHeads::EXPENSE' => 'Chi phí',
         'title' => 'Người dùng',
         'account_head' => 'Đầu tài khoản',
         'added_msg' => 'Người dùng thêm thành công.',

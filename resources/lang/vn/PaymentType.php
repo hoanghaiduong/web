@@ -1,12 +1,12 @@
 <?php
-return[
-     'PaymentType::STRIPE      ' => 'Stripe',//
-     'PaymentType::SSL_COMMERZ ' => 'SSL Commerz',//
-     'PaymentType::PAYPAL      ' => 'Paypal',//
-     'PaymentType::PAYONEER    ' => 'Payoneer',
-     'PaymentType::BKASH       ' => 'Bkash',//
-     'PaymentType::VISA        ' => 'Visa',
-     'PaymentType::SKRILL      ' => 'Skrill',//
-     'PaymentType::AAMARPAY    ' =>  'Aamarpay',//
+return [
+'PaymentType::STRIPE      ' => 'Vạch sọc',//
+'PaymentType::SSL_COMMERZ ' => 'SSLCommerz', //
+'PaymentType::PAYPAL      ' => 'Paypal', //
+'PaymentType::PAYONEER    ' => 'Payoneer',
+'PaymentType::BKASH       ' => 'Bkash', //
+'PaymentType::VISA        ' => 'Hộ chiếu',
+'PaymentType::SKRILL      ' => 'Skrill', //
+'PaymentType::AAMARPAY    ' => 'Aamarpay', //
 
 ];

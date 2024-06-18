@@ -26,8 +26,10 @@
                                             <i class="flag-icon flag-icon-fr"></i> {{ __('levels.franch') }}
                                         @elseif(app()->getLocale() == 'es')
                                             <i class="flag-icon flag-icon-es"></i> {{ __('levels.spanish') }}
-                                       @elseif(app()->getLocale()  == 'zh')
+                                        @elseif(app()->getLocale()  == 'zh')
                                             <i class="flag-icon flag-icon-zh"></i> {{ __('levels.chinese') }}
+                                        @elseif(app()->getLocale() == 'vn')
+                                            <i class="flag-icon flag-icon-vn"></i> {{ __('levels.vietnamese') }}
                                         @endif
                                 </button>
                                 <div class="dropdown-menu" >
@@ -62,6 +64,8 @@
                                                             <i class="flag-icon flag-icon-es"></i> {{ __('levels.spanish') }}
                                                         @elseif(app()->getLocale() == 'zh')
                                                             <i class="flag-icon flag-icon-cn"></i> {{ __('levels.chinese') }}
+                                                        @elseif(app()->getLocale() == 'vn')
+                                                            <i class="flag-icon flag-icon-vn"></i> {{ __('levels.vietnamese') }}
                                                         @endif
                                                 </button>
                                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -72,6 +76,7 @@
                                                         <a class="dropdown-item" href="{{ route('setlocalization','fr') }}"> <i class="flag-icon flag-icon-fr"></i> {{ __('levels.franch') }}</a>
                                                         <a class="dropdown-item" href="{{ route('setlocalization','es') }}"> <i class="flag-icon flag-icon-es"></i> {{ __('levels.spanish') }}</a>
                                                         <a class="dropdown-item" href="{{ route('setlocalization','zh') }}"> <i class="flag-icon flag-icon-cn"></i> {{ __('levels.chinese') }}</a>
+                                                        <a class="dropdown-item" href="{{ route('setlocalization','vn') }}"> <i class="flag-icon flag-icon-vn"></i> {{ __('levels.vietnamese') }}</a>
                                                 </div>
                                             </div>
                                         </div>
