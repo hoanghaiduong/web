@@ -333,7 +333,7 @@ class MerchantRepository implements MerchantInterface{
     }
 
     // for merchant image upload
-    public function merchant_image($image_id = '', $image) {
+    public function merchant_image( $image,$image_id = '') {
         try {
 
             $image_name = '';
@@ -364,7 +364,7 @@ class MerchantRepository implements MerchantInterface{
         }
     }
     // for trade_license upload
-    public function trade_license ($trade_license  = '', $image) {
+    public function trade_license ($image,$trade_license  = '') {
         try {
 
             $image_name = '';
@@ -395,7 +395,7 @@ class MerchantRepository implements MerchantInterface{
         }
     }
     // for merchant nid upload
-    public function merchaant_nid ($nid_id  = '', $image) {
+    public function merchaant_nid ($image,$nid_id  = '') {
         try {
 
             $image_name = '';
@@ -551,7 +551,7 @@ class MerchantRepository implements MerchantInterface{
         }
 
 
-        protected function linktoAvatarUpload($user=null,$avatar_original){
+        protected function linktoAvatarUpload($avatar_original,$user=null){
             // dd($user,$avatar_original);
             try {
                 //profile upload
