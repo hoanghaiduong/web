@@ -12,7 +12,8 @@
         businessHours: true,
         dayMaxEvents: true, // allow "more" link when too many events
         events: [
-                @php if(calendarnewsoffer(date("Y-m-d")) !==null){  @endphp
+            @php 
+            if(calendarnewsoffer(date("Y-m-d")) !==null){  @endphp
             {
                 title: 'News & Offer : {{  calendarnewsoffer(date("Y-m-d"))->title }}',
                 start: '{{ date("Y-m-d") }}'

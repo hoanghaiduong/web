@@ -146,6 +146,6 @@ return array (
 'warehouse'                       => 'Entrepôt',
 'deliveryman_assigned'            => 'Livreur affecté',
 'return_courier'                  => 'Retour de courrier',
-'delivered'                       => 'Livré',";
+'delivered'                       => 'Livré'
 
 );
