@@ -1,4 +1,5 @@
 <?php
+use App\Enums\TodoStatus;
 
 return array(
     'dashboard' => 'bảng điều khiển',
@@ -19,9 +20,9 @@ return array(
     'added_msg' => 'Người dùng thêm thành công.',
     'error_msg' => 'Có gì đó đã sai.',
     'note' => 'Ghi chú',
-    'TodoStatus:: PENDING' => 'CHƯA GIẢI QUYẾT',
-    'TodoStatus:: PROCESSING' => 'XỬ LÝ',
-    'TodoStatus:: COMPLETED' => 'HOÀN THÀNH',
+    TodoStatus::PENDING => 'CHƯA GIẢI QUYẾT',
+    TodoStatus::PROCESSING => 'XỬ LÝ',
+    TodoStatus::COMPLETED => 'HOÀN THÀNH',
     'todo_processing_success' => 'Để xử lý thành công',
     'todo_compete_success' => 'Để hoàn thành thành công',
     'update_msg' => 'Người dùng cập nhật thành công.'
